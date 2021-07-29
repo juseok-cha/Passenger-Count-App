@@ -1,11 +1,13 @@
 // document.getElementById("count-el").innerText = 5
 
-// Create a variable, bonusPoints. Initialize it as 50. Increase it to 100
-// Decrease it down to 25, and then finally increase it to 70
+// Setting up Race 
+function countdown() {
+  console.log(5)
+  console.log(4)
+  console.log(3)
+  console.log(2)
+  console.log(1)
+}
 
-let bonusPoints = 50 
-bonusPoints = bonusPoints + 50
-bonusPoints = bonusPoints - 75
-bonusPoints = bonusPoints + 45
-
-console.log(bonusPoints)
+countdown()
+countdown()
