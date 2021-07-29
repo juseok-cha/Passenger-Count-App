@@ -1,16 +1,15 @@
-// Create a function that logs out the sum of all the lap times.
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+let lastCompleted = 0
 
-function sumAll() {
-  lap1 += (lap2+lap3)
-  console.log(lap1)
+// Create a function that increment the lastCompleted variable with one
+// Run it Three time. 
+
+
+function incre() {
+  lastCompleted += 1
 }
 
-function sumLapTime() {
-  let totalTime = lap1 + lap2 + lap3
-  console.log(totalTime)
-}
-console.log(totalTime) 
-sumLapTime()
+incre()
+incre()
+incre()
+
+console.log(lastCompleted)
