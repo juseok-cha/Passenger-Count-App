@@ -1,13 +1,10 @@
-// document.getElementById("count-el").innerText = 5
+// first function
+// Create a first function (you decide the name) that log out the number 42 to the console.
+// Call/invoke the function
 
-// Setting up Race 
-function countdown() {
-  console.log(5)
-  console.log(4)
-  console.log(3)
-  console.log(2)
-  console.log(1)
+
+function callf2() {
+  console.log(42)
 }
 
-countdown()
-countdown()
+callf2()
