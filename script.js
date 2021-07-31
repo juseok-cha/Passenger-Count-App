@@ -1,15 +1,12 @@
-let lastCompleted = 0
+// document.getElementById("count-el").innerText = 5
+// Change the count-el in the HTML to reflect the new count
 
-// Create a function that increment the lastCompleted variable with one
-// Run it Three time. 
+// camelCase
+let countEl = document.getElementById('count-el')
+console.log(countEl)
 
-
-function incre() {
-  lastCompleted += 1
+let count = 0
+function increment() {
+  count = count + 1
+  countEl.innerText = count
 }
-
-incre()
-incre()
-incre()
-
-console.log(lastCompleted)
